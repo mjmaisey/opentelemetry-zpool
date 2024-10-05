@@ -56,4 +56,8 @@ otelcol.receiver.exec "my_script" {
 }
 ```
 
+## Create test zpool
 
+```bash
+dd if=/dev/zero of=test_zpool bs=1M count=128
+```
