@@ -1,4 +1,4 @@
----
+--
 
 ## Key library
 
@@ -40,7 +40,7 @@ https://github.com/open-telemetry/opentelemetry-proto/blob/main/examples/metrics
 }
 ```
 
-#  Updates to alloy-config.river (suggested by Perplexity)
+##  Updates to alloy-config.river (suggested by Perplexity)
 
 ```json
 otelcol.receiver.exec "my_script" {
