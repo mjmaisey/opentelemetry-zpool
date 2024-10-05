@@ -1,5 +1,3 @@
---
-
 ## Key library
 
 https://pkg.go.dev/github.com/bicomsystems/go-libzfs
@@ -42,7 +40,7 @@ https://github.com/open-telemetry/opentelemetry-proto/blob/main/examples/metrics
 
 ##  Updates to alloy-config.river (suggested by Perplexity)
 
-```json
+```
 otelcol.receiver.exec "my_script" {
   command = "/path/to/your/script"
   interval = "60s"
